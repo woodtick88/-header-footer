@@ -81,10 +81,7 @@
     text-align: left;
 }
 
-#footer .footer-wrap .tel_box {
-    box-sizing: border-box;
-    padding-left: 40px;
-}
+
 
 
 @media screen and (max-width: 1279px) {
@@ -156,6 +153,11 @@
         text-align: right;
     }
 
+    #footer .footer-wrap .tel_box .social-links {
+        text-align: right;
+        padding-right: 78px;
+    }
+
 
 }
 
@@ -177,6 +179,10 @@
 
     #footer .footer-wrap .tel_box {
         margin-top: 0;
+    }
+
+    #footer .footer-wrap .tel_box .social-links {
+        padding-right: 60px;
     }
 
 
@@ -209,6 +215,7 @@
 
     #footer .footer-wrap .tel_box .social-links {
         text-align: right;
+        padding-right: 0;
     }
 
 
